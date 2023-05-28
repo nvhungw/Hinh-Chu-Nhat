@@ -23,9 +23,9 @@ class Rectangle {
   }
 }
 
-let rectangleObj = new Rectangle(200, 100);
+let rectangleObj = new Rectangle(200, 200);
 console.log(rectangleObj);
+rectangleObj.draw();
 console.log('dien tich:' + rectangleObj.getArea());
 console.log('chuvi:' + rectangleObj.getPerimeter());
-// let board = document.getElementById('board');
-rectangleObj.draw();
+let board = document.getElementById('board');
