@@ -3,7 +3,7 @@ class Rectangle {
   constructor(widthInit, heightInit) {
     this.width = widthInit;
     this.height = heightInit;
-    this.xStart = 0;
+    this.xStart = 20;
     this.yStart = 0;
   }
 
@@ -24,7 +24,7 @@ class Rectangle {
 }
 
 let rectangleObj = new Rectangle(200, 100);
-// rectangleObj.draw()
+rectangleObj.draw()
 console.log(rectangleObj);
 console.log('dien tich:' + rectangleObj.getArea());
 
