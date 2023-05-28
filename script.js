@@ -3,7 +3,7 @@ class Rectangle {
   constructor(widthInit, heightInit) {
     this.width = widthInit;
     this.height = heightInit;
-    this.xStart = 20;
+    this.xStart = 0;
     this.yStart = 0;
   }
 
@@ -24,9 +24,8 @@ class Rectangle {
 }
 
 let rectangleObj = new Rectangle(200, 100);
-rectangleObj.draw()
 console.log(rectangleObj);
 console.log('dien tich:' + rectangleObj.getArea());
-
 console.log('chuvi:' + rectangleObj.getPerimeter());
-let board = document.getElementById('board');
+// let board = document.getElementById('board');
+rectangleObj.draw();
